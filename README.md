@@ -2,7 +2,7 @@
 TriggerIOS SDK is used to seamlessly integrate triggers into existing iOS applications. You can use it to embed actual UI provided by the SDK, or simply use to handle authentication and communication with the Trigger backend.
 
 ## SDK Installation
-* TBD 
+* Comming soon. Will be available via CocoaPods and Carthage.
 
 ## Authentication 
 The SDK needs to pieces of information to securely and uniquely identify each user: 1) a company secret, and 2) a unique identifier for that user. 
