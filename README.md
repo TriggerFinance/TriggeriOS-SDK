@@ -5,11 +5,13 @@ TriggerIOS SDK is used to seamlessly integrate triggers into existing iOS applic
 * Comming soon. Will be available via CocoaPods and Carthage.
 
 ## Authentication 
-The SDK needs to pieces of information to securely and uniquely identify each user: 1) a company secret, and 2) a unique identifier for that user. 
+The SDK needs to pieces of information to securely and uniquely identify each user: 
 
-* For 1), someone from the Trigger team will supply you with this token out of band. If you do not have a token, please contact `support@triggerfinance.com`. Please keep this secret.
+1) a company secret, and 2) a unique identifier for that user. 
 
-* For 2), this is ideally a UUID that is persisted on your backend, or any other identifier that is unique across all your users interacting with the SDK. If a UUID isn't handy, a hash of an email address or other identifier would suffice. 
+* 1) <b>companySecretToken</b>: a secret token supplied to you out of band by someone from the Trigger team. If you do not have a token, please contact `support@triggerfinance.com`. Please keep this secret.
+
+* 2) <b>uniqueUserIdentifier</b>: this is ideally a UUID that is persisted on your backend, or any other identifier that is unique across all your users interacting with the SDK. If a UUID isn't handy, a hash of an email address or other identifier would suffice. 
 
 Somewhere in your `AppDelegate`, authenticate the SDK user by calling: 
 ```
